@@ -1,0 +1,45 @@
+# ---- macOS ----
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# ---- Windows / Linux ----
+Thumbs.db
+Desktop.ini
+*~
+
+# ---- Edytory / IDE ----
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ---- Deploy i sekrety (NIGDY do repo) ----
+.env
+.env.*
+!.env.example
+sftp.json
+ftp.json
+deploy.json
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+
+# ---- Zaleznosci i build ----
+node_modules/
+dist/
+build/
+
+# ---- Logi i tymczasowe ----
+*.log
+npm-debug.log*
+.cache/
+tmp/
